@@ -15,6 +15,8 @@
 		889DCE442705C1740090A018 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE432705C1740090A018 /* CardView.swift */; };
 		889DCE462705C3930090A018 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE452705C3930090A018 /* Color+Codable.swift */; };
 		889DCE492705C81C0090A018 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE482705C81C0090A018 /* ScrumsView.swift */; };
+		889DCE4B2705D3750090A018 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE4A2705D3750090A018 /* DetailView.swift */; };
+		889DCE4D2705DC650090A018 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE4C2705DC650090A018 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		889DCE432705C1740090A018 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		889DCE452705C3930090A018 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		889DCE482705C81C0090A018 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		889DCE4A2705D3750090A018 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		889DCE4C2705DC650090A018 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				889DCE342705AE2A0090A018 /* MeetingView.swift */,
 				889DCE432705C1740090A018 /* CardView.swift */,
 				889DCE482705C81C0090A018 /* ScrumsView.swift */,
+				889DCE4A2705D3750090A018 /* DetailView.swift */,
+				889DCE4C2705DC650090A018 /* EditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				889DCE352705AE2A0090A018 /* MeetingView.swift in Sources */,
 				889DCE492705C81C0090A018 /* ScrumsView.swift in Sources */,
+				889DCE4D2705DC650090A018 /* EditView.swift in Sources */,
 				889DCE422705BFE70090A018 /* DailyScrum.swift in Sources */,
+				889DCE4B2705D3750090A018 /* DetailView.swift in Sources */,
 				889DCE442705C1740090A018 /* CardView.swift in Sources */,
 				889DCE462705C3930090A018 /* Color+Codable.swift in Sources */,
 				889DCE332705AE2A0090A018 /* ScrumdingerApp.swift in Sources */,
