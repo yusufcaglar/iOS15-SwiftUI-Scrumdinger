@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885CCCF42706F780001428EA /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCCF32706F780001428EA /* MeetingHeaderView.swift */; };
+		885CCCF62706FAFB001428EA /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCCF52706FAFB001428EA /* ScrumProgressViewStyle.swift */; };
+		885CCCF82706FCEB001428EA /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCCF72706FCEB001428EA /* ScrumTimer.swift */; };
+		885CCCFA2706FEBD001428EA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCCF92706FEBD001428EA /* MeetingFooterView.swift */; };
+		885CCCFC27070219001428EA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCCFB27070219001428EA /* AVPlayer+Ding.swift */; };
+		885CCCFF27070258001428EA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 885CCCFE27070258001428EA /* ding.wav */; };
+		885CCD0127073F14001428EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CCD0027073F14001428EA /* History.swift */; };
 		889DCE332705AE2A0090A018 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE322705AE2A0090A018 /* ScrumdingerApp.swift */; };
 		889DCE352705AE2A0090A018 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DCE342705AE2A0090A018 /* MeetingView.swift */; };
 		889DCE372705AE2B0090A018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889DCE362705AE2B0090A018 /* Assets.xcassets */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885CCCF32706F780001428EA /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		885CCCF52706FAFB001428EA /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		885CCCF72706FCEB001428EA /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		885CCCF92706FEBD001428EA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		885CCCFB27070219001428EA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		885CCCFE27070258001428EA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		885CCD0027073F14001428EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		889DCE2F2705AE2A0090A018 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889DCE322705AE2A0090A018 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		889DCE342705AE2A0090A018 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885CCCFD27070241001428EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				885CCCFE27070258001428EA /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		889DCE262705AE2A0090A018 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +88,7 @@
 				889DCE322705AE2A0090A018 /* ScrumdingerApp.swift */,
 				889DCE472705C8100090A018 /* Views */,
 				889DCE402705BFCB0090A018 /* Models */,
+				885CCCFD27070241001428EA /* Resources */,
 				889DCE362705AE2B0090A018 /* Assets.xcassets */,
 				889DCE382705AE2B0090A018 /* Preview Content */,
 			);
@@ -85,6 +108,9 @@
 			children = (
 				889DCE412705BFE70090A018 /* DailyScrum.swift */,
 				889DCE452705C3930090A018 /* Color+Codable.swift */,
+				885CCCF72706FCEB001428EA /* ScrumTimer.swift */,
+				885CCCFB27070219001428EA /* AVPlayer+Ding.swift */,
+				885CCD0027073F14001428EA /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +123,9 @@
 				889DCE482705C81C0090A018 /* ScrumsView.swift */,
 				889DCE4A2705D3750090A018 /* DetailView.swift */,
 				889DCE4C2705DC650090A018 /* EditView.swift */,
+				885CCCF32706F780001428EA /* MeetingHeaderView.swift */,
+				885CCCF92706FEBD001428EA /* MeetingFooterView.swift */,
+				885CCCF52706FAFB001428EA /* ScrumProgressViewStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885CCCFF27070258001428EA /* ding.wav in Resources */,
 				889DCE3A2705AE2B0090A018 /* Preview Assets.xcassets in Resources */,
 				889DCE372705AE2B0090A018 /* Assets.xcassets in Resources */,
 			);
@@ -173,11 +203,17 @@
 			files = (
 				889DCE352705AE2A0090A018 /* MeetingView.swift in Sources */,
 				889DCE492705C81C0090A018 /* ScrumsView.swift in Sources */,
+				885CCD0127073F14001428EA /* History.swift in Sources */,
 				889DCE4D2705DC650090A018 /* EditView.swift in Sources */,
+				885CCCFC27070219001428EA /* AVPlayer+Ding.swift in Sources */,
+				885CCCF42706F780001428EA /* MeetingHeaderView.swift in Sources */,
 				889DCE422705BFE70090A018 /* DailyScrum.swift in Sources */,
+				885CCCFA2706FEBD001428EA /* MeetingFooterView.swift in Sources */,
 				889DCE4B2705D3750090A018 /* DetailView.swift in Sources */,
+				885CCCF82706FCEB001428EA /* ScrumTimer.swift in Sources */,
 				889DCE442705C1740090A018 /* CardView.swift in Sources */,
 				889DCE462705C3930090A018 /* Color+Codable.swift in Sources */,
+				885CCCF62706FAFB001428EA /* ScrumProgressViewStyle.swift in Sources */,
 				889DCE332705AE2A0090A018 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
